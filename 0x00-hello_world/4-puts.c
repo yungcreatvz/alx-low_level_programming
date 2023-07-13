@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 /**
- * main - prints exactly with print f "with proper grammar, but the outcome is a piece of art,"
+ * main - prints exactly with puts "Programming is like building a multilingual puzzle"
  * followed by a new line
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	puts("with proper grammar, but the outcome is a piece of art,");
+	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 }
