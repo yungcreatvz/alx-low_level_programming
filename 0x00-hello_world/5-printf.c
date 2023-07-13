@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - prints exactly withi printf "with proper grammar, but the outcome is a piece of art,"
+ * main - prints exactly with printf 
+ * text "with proper grammar, but the outcome is a piece of art,"
  * followed by a new line
  * Return: Always 0 (Success)
  */
