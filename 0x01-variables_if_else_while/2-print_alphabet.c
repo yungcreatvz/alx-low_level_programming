@@ -12,6 +12,6 @@ int main(void)
 	char a;
 
 	for (a = 'a'; a <= 'z'; a++)
-		puts ("%c", a);
+		puts("%c", a);
 	return (0);
 }
