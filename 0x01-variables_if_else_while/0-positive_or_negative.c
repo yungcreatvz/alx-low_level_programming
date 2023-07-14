@@ -4,8 +4,9 @@
 
 /**
  * main - Check and return if a number is
- * positive - negative - is zero
- * betty style doc for function main goes there
+ * positive  negative is zero
+ * followed by a new line
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
