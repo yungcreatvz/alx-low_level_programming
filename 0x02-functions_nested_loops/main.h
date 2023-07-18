@@ -12,7 +12,7 @@ void print_alphabet(void)
 	char a;
 
         for (a = 'a'; a <= 'z'; a++)
-        	printf(a);
+        	printf("%c", a);
 	printf("\n");
         return;
 }
