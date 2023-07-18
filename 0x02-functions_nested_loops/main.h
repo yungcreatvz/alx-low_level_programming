@@ -2,4 +2,8 @@
  * program
  */ 
 
-#include "stdio.h";
+void printchar (char content)
+{
+        printf("%s \n",content);
+        return;
+}
