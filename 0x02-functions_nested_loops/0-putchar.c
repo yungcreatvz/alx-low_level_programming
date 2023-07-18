@@ -7,6 +7,9 @@
  */
 int main(void)
 {
-	printchar("_putchar");
+	char text[] = "_putchar";
+	
+	for(int i = 0; i <strlen(text) ; i++) 
+		_putchar(text[i]);
 	return (0);
 }
