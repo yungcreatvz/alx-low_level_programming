@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -5,8 +6,12 @@
  * followed by a new line
  * Return: Always 0 (Success)
  */
-int main(void)
+void print_alphabet(void)
 {
-	print_alphabet();
-	return (0);
+        char a;
+
+        for (a = 'a'; a <= 'z'; a++)
+                _putchar(a);
+        _putchar('\n');
+        return;
 }
