@@ -2,8 +2,8 @@
  * program
  */ 
 
-void printchar (char content)
+void printchar(char content[])
 {
-        printf("%s \n",content);
+        printf("%s\n", content);
         return;
 }
