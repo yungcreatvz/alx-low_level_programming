@@ -1,3 +1,4 @@
+#include <stdio.h>
 /* Main file for nested loops
  * program
  */ 
