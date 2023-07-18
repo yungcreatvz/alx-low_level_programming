@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * _islower - Print check lower char function
+ * islower - Print check lower char function
  * followed by a new line
  * Return: Always 0 (Success)
  */
