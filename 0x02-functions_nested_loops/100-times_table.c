@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h>i
 #include "main.h"
 
 /**
@@ -21,7 +21,6 @@ void print_times_table(int n)
 			{
 				if (m != 0)
 				{
-
 					for (k = 0 ; k < 2; k++)
 						_putchar(' ');
 				}
@@ -30,8 +29,10 @@ void print_times_table(int n)
 			else
 			{
 				if ((r / 100) > 0)
+				{
 					_putchar((r / 100) + '0');
 					r = (r % 100);
+				}
 				else
 					_putchar(' ');
 				_putchar((r / 10) + '0');
