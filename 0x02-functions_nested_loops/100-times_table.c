@@ -27,11 +27,11 @@ void print_times_table(int n)
 				}
 				_putchar(r + '0');
 			}
-				else
+			else
 			{
 				if ((r / 100) > 0)
 					_putchar((r / 100) + '0');
-					r -= (r % 100)
+					r = (r % 100);
 				else
 					_putchar(' ');
 				_putchar((r / 10) + '0');
