@@ -19,7 +19,7 @@ void print_times_table(int n)
 			for (m = 0; m <= n; m++)
 			{
 				r = j * m;
-				for (k = 100; r > 0; r %= k)
+				for (k = 100; r > 0; r = r % k)
 				{
 					if ((r / k) > 0)
 					{
