@@ -19,12 +19,12 @@ void print_times_table(int n)
 			for (m = 0; m <= n; m++)
 			{
 				r = j * m;
-				for (k = 100; r > 0; k /= 10)
+				for (k = 100; r > 0; r %= k)
 				{
-					if ((r / 100) > 0)
+					if ((r / k) > 0)
 					{
 						_putchar((r / 100) + '0');
-						r = (r % 100);
+						k /= 10;
 					}
 					else
 						_putchar(' ');
