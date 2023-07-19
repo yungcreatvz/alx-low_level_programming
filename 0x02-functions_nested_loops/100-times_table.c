@@ -8,7 +8,7 @@
  * followed by a new line
  * Return: table per line
  */
-void print_times_table(int n);
+void print_times_table(int n)
 {
 	int j, m, r;
 
