@@ -16,7 +16,7 @@ void print_times_table(int n)
 	{
 		for (m = 0; m <= n; m++)
 		{
-			r = n * m;
+			r = j * m;
 			if (r < 10)
 			{
 				if (m != 0)
