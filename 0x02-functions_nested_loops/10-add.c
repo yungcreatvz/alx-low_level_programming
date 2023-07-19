@@ -13,7 +13,5 @@ int add(int a, int b)
 {
 	int r = a + b
 
-	_putchar((r / 10) + '0');
-	_outchar((r % 10) + '0');
-	_putchar('\n');
+	return (r);
 }
