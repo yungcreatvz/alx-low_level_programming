@@ -5,7 +5,6 @@
  * print_numbers - Print  number from 0 to 9
  * dont print 2 & 4
  * followed by a new line
- * Return: numbers from 0 to 9
  */
 void print_most_numbers(void)
 {
