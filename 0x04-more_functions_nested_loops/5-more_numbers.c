@@ -2,10 +2,10 @@
 #include "main.h"
 
 /**
- * print_more_numbers - Print  number from 0 to 14
+ * more_numbers - Print  number from "0" to "14"
  * followed by a new line
  */
-void print_more_numbers(void)
+void more_numbers(void)
 {
 	int i, j;
 	
