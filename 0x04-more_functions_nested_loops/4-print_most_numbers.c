@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * print_numbers - Print  number from 0 to 9
+ * print_most_numbers - Print  number from 0 to 9
  * dont print 2 & 4
  * followed by a new line
  */
