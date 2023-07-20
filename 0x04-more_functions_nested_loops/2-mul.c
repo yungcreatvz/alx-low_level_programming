@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * _mul - Print check digits
+ * mul - Print check digits
  * @a: number 1 input
  * @b: number 2 input
  * followed by a new line
