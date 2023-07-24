@@ -1,4 +1,4 @@
-#include "main.h";
+#include "main.h"
 
 /**
  * reset_to_98 - Set pointer value of given var to 98
