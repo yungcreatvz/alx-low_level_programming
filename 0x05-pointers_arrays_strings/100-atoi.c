@@ -18,7 +18,7 @@ int _atoi(char *s)
 	{
 		if (s[i] == '-')
 			continue;
-		num += s[i] - '0' * f;
+		num += (s[i] - '0') * f;
 		f *= 10;
 	}
 
