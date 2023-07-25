@@ -5,7 +5,8 @@
  * _strcpy - copy string pointed to by src
  * @dest: paste destinaation
  * @src: string to copy
-  */
+ * Return: string coppied
+ */
 char *_strcpy(char *dest, char *src)
 {
 	int i = 0, l = 0;
@@ -14,7 +15,7 @@ char *_strcpy(char *dest, char *src)
 		l++;
 	for (;i < l; i++)
 		dest[i] = src[i];
-	dest[i] = '\n';
+	dest[i] = '\0';
 
 	return (dest);
 }
