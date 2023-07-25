@@ -17,7 +17,7 @@ void rev_string(char *s)
 	{
 		a = s[j];
 		a[j] = s[i - 1];
-		s[i - 1] = a
+		s[i - 1] = a;
 	}
 	_putchar('\n');
 }
