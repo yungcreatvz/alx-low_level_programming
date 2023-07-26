@@ -17,7 +17,7 @@ char *_strncpy(char *dest, char *src, int n)
 	while (src[lens] != '\0')
 		lens++;
 	j = lend;
-	for (i = 0; i <= lens; i++)
+	for (i = 0; (i <= lens && i < n); i++)
 	{
 		if (i == n)
 			i = lens;
