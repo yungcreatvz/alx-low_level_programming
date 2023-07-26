@@ -5,7 +5,7 @@
  * _strcat - concatenate src string to destination string
  * @dest: string destination
  * @src: string to add
- * Return: fusionned strings 
+ * Return: dest merged with src string
  */
 char *_strcat(char *dest, char *src)
 {
@@ -15,18 +15,12 @@ char *_strcat(char *dest, char *src)
 		lend++;
 	while (src[lens] != '\0')
 		lens++;
-	char str[lend + lens];
-
-	for (i = 0; i < lend + lens; i++)
+	j = lend;
+	for (i = 0; i <= lens; i++)
 	{
-		if (i < lend)
-			str[i] = dest[i];
-		else
-		{
-			str[i] = src[j];
-			j++;
-		}
-
+		dest[i] = src[j];
+		j++;
 	}
-	return (str);
+
+	return (dest);
 }
