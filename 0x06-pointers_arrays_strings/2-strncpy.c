@@ -24,8 +24,10 @@ char *_strncpy(char *dest, char *src, int n)
 		dest[j] = src[i];
 		j++;
 	}
-	if (i < n)
+	while (i < n)
+	{
 		dest[i] = '\n';
-
+		i++
+	}
 	return (dest);
 }
