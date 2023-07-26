@@ -17,14 +17,17 @@ char *_strncpy(char *dest, char *src, int n)
 	while (src[lens] != '\0')
 		lens++;
 	j = lend;
-	for (i = 0; (i <= lens && i < n); i++)
+	for (i = 0; i <= lens ; i++)
 	{
 		if (i == n)
 			i = lens;
 		dest[j] = src[i];
 		j++;
 	}
-	if (i < n)
-		dest[i] = '\0';
+	while (j < n)
+	{
+		dest[j] = '\0';
+		j++;
+	}
 	return (dest);
 }
