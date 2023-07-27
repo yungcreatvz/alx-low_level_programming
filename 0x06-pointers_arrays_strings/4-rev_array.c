@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * _strcmp - reverses the content of an array of integers
+ * reverse_array - reverses the content of an array of integers
  * @a: array table to reverse
  * @n: number of element in the array
  */
