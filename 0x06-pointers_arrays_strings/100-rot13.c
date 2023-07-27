@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * rot13 -  encodes using rot 13
+ * rot13 - encodes using rot 13
  * @s: string
- * Return: string.
+ * Return: string
  */
 char *rot13(char *s)
 {
