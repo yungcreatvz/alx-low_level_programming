@@ -4,7 +4,6 @@
 /**
  * _strspn - the length of a prefix substring.
  * @s: string to scan
- * @c: substring
  * Return: pointer to the first occurrence of s string or null
  */
 unsigned int _strspn(char *s, char *accept)
