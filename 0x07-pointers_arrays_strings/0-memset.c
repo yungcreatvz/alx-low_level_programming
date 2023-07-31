@@ -3,9 +3,9 @@
 
 /**
  * _memset - fills memory with a constant byte.
- * @s:
- * @b:
- * @n:
+ * @s: buffer adress
+ * @b: consnt to be filled
+ * @n: size of memory
  * Return: ppointer to the memory area
  */
 char *_memset(char *s, char b, unsigned int n)
@@ -20,5 +20,5 @@ char *_memset(char *s, char b, unsigned int n)
 		set[i] = b;
 		i++;
 	}
-	return *s;
+	return (*s);
 }
