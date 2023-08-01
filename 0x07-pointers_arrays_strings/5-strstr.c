@@ -7,22 +7,19 @@
  * @needle: string src
  * Return: pointer from index of first occurence
  */
-char *_strstr(char *haystack, char *needle);
+char *_strstr(char *haystack, char *needle)
 {
-	int i = 0, j = 0, match = 0;
+	int i = 0, j = 0;
 
-	while (haystack[i] != '\0')
+	for (i = 0; haystack[i] != '\0'; i++)
 	{
-		for (j = 0; needle[j]; j++)
+		for (j = 0; needle[j] != '\0'; j++)
 		{
-			if (haystack[i] == needle[j])
-			{
-				match = 1;
-			}
+			if (haystack[i + j] != needle[j])
+				break;
 		}
-		if ((match == 1 && !needle[j]))
+		if (!needle[j])
 			return (haystack + i);
-		i++;
 	}
 	return (NULL);
 }
