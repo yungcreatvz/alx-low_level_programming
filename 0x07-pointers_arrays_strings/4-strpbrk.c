@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * _strbrk - searches a string for any of a set of bytes
+ * _strpbrk - searches a string for any of a set of bytes
  * @s: string to scan
  * @accept: string src
  * Return: lenght of prefix
@@ -17,10 +17,10 @@ char *_strpbrk(char *s, char *accept)
 		{
 			if (s[i] == accept[j])
 			{
-				break;
+				return (s + i);
 			}
 		}
 		i++;
 	}
-	return (s + i);
+	return (NULL);
 }
