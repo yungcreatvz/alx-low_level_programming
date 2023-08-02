@@ -7,9 +7,10 @@
  */
 void _puts_recursion(char *s)
 {
-	if (s != '\0')
-		return (1);
-	puts(s);
+	if (*s != '\0')
+		puts('\n');
+		return;
+	puts(*s);
 	puts('\n');
-	return (_puts_recursion(s + 1);
+	_puts_recursion(s + 1);
 }
