@@ -11,10 +11,12 @@ char *_strdup(char *str)
 	int i = 0, j;
 	char *a;
 
+	if (a == NULL || str == NULL)
+		return (NULL);
 	while (str[i] != '\0')
 		i++;
-	a = malloc(i * sizeof(char));
-	if (i == 0 || a == NULL || str == NULL)
+	a = malloc(i * sizeof(char) + 1);
+	if (i == 0)
 		return (NULL);
 	for (j = 0; j < i; j++)
 		a[j] = str[j];
