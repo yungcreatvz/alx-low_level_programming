@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * malloc_checked - concatenates two strings with n value
+ * string_nconcat - concatenates two strings with n value
  * for the second value
  * @s1: string 1 ( begining)
  * @s2: string 2 ( second string)
