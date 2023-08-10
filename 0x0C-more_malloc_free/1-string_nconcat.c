@@ -27,8 +27,8 @@ char *string_nconcat(char *s1, char *s2, unsigned int n);
 		return (NULL);
 	for (k = 0; k < i; k++)
 		a[k] = s1[k];
-	if (n >= s2)
-		limit = s2;
+	if (n >= j)
+		limit = j;
 	else
 		limit = n;
 	for (l = 0; l <= limit; k++, l++)
