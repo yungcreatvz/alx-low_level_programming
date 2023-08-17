@@ -5,7 +5,7 @@
  * @n: number of given input
  * @separator: separator between input
  */
-void print_strings(const char *separator, const unsigned int n, ...);
+void print_strings(const char *separator, const unsigned int n, ...)
 {
 	va_list sl;
 	char *str;
@@ -19,7 +19,7 @@ void print_strings(const char *separator, const unsigned int n, ...);
 			str = "(nil)";
 		if (!separator)
 			printf("%s", str);
-		else if (separator && i == 0)
+		else if (i == 0)
 			printf("%s", str);
 		else
 			printf("%s%s", separator, str);
