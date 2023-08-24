@@ -6,6 +6,7 @@
  * @h: pointer to the list to print
  * Return: Number & node content
  */
+
 size_t print_list(const list_t *h)
 {
 	size_t l = 0;
