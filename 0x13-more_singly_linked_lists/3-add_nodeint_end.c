@@ -6,7 +6,7 @@
  * @n: new input data to insert into the new node
  * Return: Adress of new node or NULL
  */
-listint_t *add_nodeint_end(listint_t **head, const int n);
+listint_t *add_nodeint_end(listint_t **head, const int n)
 {
 	listint_t *temp;
 
