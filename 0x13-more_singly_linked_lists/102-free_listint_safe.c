@@ -1,4 +1,5 @@
 #include "lists.h"
+#include <stdio.h>
 /**
  * free_listint_safe - frees a list
  * @h: first node of the  thelist
